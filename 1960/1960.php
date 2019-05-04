@@ -14,7 +14,7 @@
     }
     
     $less = new lessc;
-    $less->compileFile('less/1958.less', 'css/1958.css');
+    $less->compileFile('less/1960.less', 'css/1960.css');
     
 ?>
 
@@ -25,7 +25,7 @@
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/1958.css" rel="stylesheet" type="text/css"/>
+        <link href="css/1960.css" rel="stylesheet" type="text/css"/>
        <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
         <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
         
@@ -33,9 +33,9 @@
 
     </head>
     <body>
-        <?php include $dir_block.'/1958-content.php'; ?>  
+        <?php include $dir_block.'/1960-content.php'; ?>  
         <script type="text/javascript" src="js/swiper.min.js"></script>
-        <script src="js/1958.js" type="text/javascript"></script>
+        <script src="js/1960.js" type="text/javascript"></script>
     </body>
     
 </html>
