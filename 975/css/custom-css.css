@@ -1,0 +1,362 @@
+.mod-custom-13 {
+  @import url('../css/reset.css');
+  background: #f7f7f7 url(../images/pattern.png) repeat top left;
+  color: #000;
+  font-size: 15px;
+}
+.mod-custom-13 body,
+.mod-custom-13 div,
+.mod-custom-13 dl,
+.mod-custom-13 dt,
+.mod-custom-13 dd,
+.mod-custom-13 ul,
+.mod-custom-13 ol,
+.mod-custom-13 li,
+.mod-custom-13 h1,
+.mod-custom-13 h2,
+.mod-custom-13 h3,
+.mod-custom-13 h4,
+.mod-custom-13 h5,
+.mod-custom-13 h6,
+.mod-custom-13 pre,
+.mod-custom-13 form,
+.mod-custom-13 fieldset,
+.mod-custom-13 input,
+.mod-custom-13 textarea,
+.mod-custom-13 p,
+.mod-custom-13 blockquote,
+.mod-custom-13 th,
+.mod-custom-13 td {
+  margin: 0;
+  padding: 0;
+}
+.mod-custom-13 a {
+  color: #000;
+  text-decoration: none;
+}
+.mod-custom-13 .clr {
+  clear: both;
+}
+.mod-custom-13 .container {
+  width: 100%;
+  position: relative;
+  z-index: 100;
+  margin: 0 auto 50px auto;
+}
+.mod-custom-13 .content {
+  width: 1060px;
+  margin: 0 auto;
+  position: relative;
+}
+.mod-custom-13 .wrapper {
+  float: left;
+  width: 620px;
+  padding: 0px 10px;
+  position: relative;
+}
+.mod-custom-13 .column {
+  float: left;
+  width: 186px;
+  line-height: 18px;
+  padding: 0px 10px;
+  text-align: justify;
+}
+.mod-custom-13 .wrapper .column {
+  margin-top: 440px;
+}
+.mod-custom-13 .column p {
+  padding-bottom: 4px;
+  margin: 0px;
+}
+.mod-custom-13 h1 {
+  margin: 15px 0px 8px 0px;
+  font-size: 32px;
+  color: #000;
+  font-family: 'Holtwood One SC', serif;
+  text-shadow: 1px 1px 1px #fff;
+}
+.mod-custom-13 h1 span {
+  font-size: 14px;
+}
+.mod-custom-13 .examples {
+  float: right;
+  font-size: 12px;
+  color: #555;
+  margin: 23px 20px 0px 0px;
+}
+.mod-custom-13 .examples a {
+  color: #5fbcaa;
+}
+.mod-custom-13 .examples a.selected,
+.mod-custom-13 .examples a:hover {
+  color: #555;
+}
+.mod-custom-13 .header {
+  height: 25px;
+  line-height: 24px;
+  font-size: 13px;
+  background: #000;
+  opacity: 0.9;
+  text-transform: uppercase;
+  z-index: 4;
+}
+.mod-custom-13 .header a {
+  padding: 5px 10px;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px #000;
+  color: #ddd;
+  text-align: right;
+}
+.mod-custom-13 .header a:hover {
+  color: #fff;
+}
+.mod-custom-13 .header a span {
+  font-weight: bold;
+}
+.mod-custom-13 .header span.right_ab {
+  position: absolute;
+  right: 4px;
+}
+.mod-custom-13 .cr-container {
+  width: 600px;
+  height: 400px;
+  border: 10px solid #000;
+  position: absolute;
+  z-index: 100;
+}
+.mod-custom-13 .cr-content-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.mod-custom-13 .cr-content-container {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.mod-custom-13 .cr-img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 1;
+  -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+  -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+}
+.mod-custom-13 .cr-content {
+  position: relative;
+  z-index: 10;
+  margin: 20px;
+  height: 360px;
+}
+.mod-custom-13 .cr-content h2 {
+  font-size: 50px;
+  line-height: 40px;
+  width: 70%;
+  color: #fff;
+  text-shadow: 1px -1px 1px rgba(0,0,0,0.5);
+  font-family: 'Holtwood One SC', serif;
+}
+.mod-custom-13 .cr-content h3 {
+  width: 40%;
+  color: #fff;
+  padding: 15px 0px;
+  line-height: 30px;
+}
+.mod-custom-13 .cr-content h3 span {
+  background: #000;
+  padding: 4px 0px;
+  font-style: italic;
+  font-family: Georgia, serif;
+  letter-spacing: 3px;
+  font-size: 16px;
+}
+.mod-custom-13 .cr-more-link {
+  text-transform: uppercase;
+  color: #000;
+  font-size: 11px;
+  padding: 0px 5px;
+}
+.mod-custom-13 .cr-more-link:hover {
+  text-shadow: 1px -1px 1px rgba(0,0,0,0.5);
+  color: #fff;
+}
+.mod-custom-13 .cr-content-text {
+  color: #000;
+  background: transparent url(../images/bg_content.png) repeat top left;
+  font-size: 14px;
+  font-family: Georgia;
+  font-style: italic;
+  line-height: 24px;
+  position: relative;
+  display: none;
+  z-index: 999;
+  clear: both;
+}
+.mod-custom-13 .cr-content-text p {
+  padding: 10px;
+}
+.mod-custom-13 .cr-thumbs {
+  position: absolute;
+  left: 15px;
+  height: 110px;
+  width: 575px;
+  bottom: 0px;
+  z-index: 20;
+  overflow: hidden;
+}
+.mod-custom-13 .cr-thumbs div {
+  float: left;
+  cursor: pointer;
+  position: relative;
+  width: 143px;
+  height: 106px;
+}
+.mod-custom-13 .cr-thumbs img {
+  display: block;
+  margin: 6px 5px 6px 0px;
+  border: 4px solid #fff;
+  -moz-box-shadow: 1px 1px 1px rgba(0,0,0,0.25);
+  -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.25);
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.25);
+}
+.mod-custom-13 .cr-thumbs h4 {
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  font-family: 'Holtwood One SC', serif;
+  font-size: 13px;
+  line-height: 14px;
+  text-shadow: 0px 1px 1px rgba(0,0,0,0.5);
+  color: #fff;
+}
+.mod-custom-13 .cr-thumbs div:hover h4 {
+  bottom: 14px;
+}
+.mod-custom-13 .cr-thumbs div.cr-selected {
+  border-color: #000;
+  background: transparent url(../images/triangle.png) no-repeat 50% 0%;
+}
+.mod-custom-13 .cr-thumbs div.cr-selected img {
+  border-color: #000;
+}
+.mod-custom-13 .cr-nav span {
+  position: absolute;
+  z-index: 50;
+  text-indent: -9000px;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  margin-bottom: -17px;
+  left: -24px;
+  background: transparent url(../images/nav.png) no-repeat top left;
+}
+.mod-custom-13 .cr-nav span.cr-nav-next {
+  background-position: bottom left;
+  right: -24px;
+  left: auto;
+}
+.mod-custom-13 .cr-nav span.cr-nav-prev:hover,
+.mod-custom-13 .cr-nav span.cr-nav-next:hover {
+  bottom: 34px;
+}
+.mod-custom-13 .cr-hide,
+.mod-custom-13 .cr-show {
+  position: absolute;
+  z-index: 50;
+  left: 50%;
+  margin-left: -25px;
+  bottom: -10px;
+  background: #000 url(../images/hide.png) no-repeat top center;
+  cursor: pointer;
+  width: 60px;
+  height: 15px;
+}
+.mod-custom-13 .cr-show {
+  background-position: bottom center;
+}
+.mod-custom-13 .jspContainer {
+  overflow: hidden;
+  position: relative;
+}
+.mod-custom-13 .jspPane {
+  position: absolute;
+}
+.mod-custom-13 .jspVerticalBar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 100%;
+  background: #fff;
+}
+.mod-custom-13 .jspHorizontalBar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background: #fff;
+}
+.mod-custom-13 .jspVerticalBar *,
+.mod-custom-13 .jspHorizontalBar * {
+  margin: 0;
+  padding: 0;
+}
+.mod-custom-13 .jspCap {
+  display: none;
+}
+.mod-custom-13 .jspHorizontalBar .jspCap {
+  float: left;
+}
+.mod-custom-13 .jspTrack {
+  background: #fff;
+  position: relative;
+}
+.mod-custom-13 .jspDrag {
+  background: #000;
+  position: relative;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+.mod-custom-13 .jspHorizontalBar .jspTrack,
+.mod-custom-13 .jspHorizontalBar .jspDrag {
+  float: left;
+  height: 100%;
+}
+.mod-custom-13 .jspArrow {
+  background: #50506d;
+  text-indent: -20000px;
+  display: block;
+  cursor: pointer;
+}
+.mod-custom-13 .jspArrow.jspDisabled {
+  cursor: default;
+  background: #80808d;
+}
+.mod-custom-13 .jspVerticalBar .jspArrow {
+  height: 10px;
+}
+.mod-custom-13 .jspHorizontalBar .jspArrow {
+  width: 10px;
+  float: left;
+  height: 100%;
+}
+.mod-custom-13 .jspVerticalBar .jspArrow:focus {
+  outline: none;
+}
+.mod-custom-13 .jspCorner {
+  background: #eeeef4;
+  float: left;
+  height: 100%;
+}
+.mod-custom-13 * html .jspCorner {
+  margin: 0 -3px 0 0;
+}

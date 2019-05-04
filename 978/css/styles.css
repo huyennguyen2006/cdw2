@@ -1,0 +1,285 @@
+.mod-custom-16 .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -300px 0 0 -470px;
+}
+.mod-custom-16 .content {
+  background: url(../images/coffee.jpg);
+}
+.mod-custom-16 .content h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 180px;
+  color: #222;
+  line-height: 50px;
+}
+.mod-custom-16 .content h3 {
+  text-align: center;
+  font-size: 22px;
+  color: #222;
+}
+.mod-custom-16 html,
+.mod-custom-16 body {
+  margin: 0;
+  padding: 0;
+}
+.mod-custom-16 h1,
+.mod-custom-16 h2,
+.mod-custom-16 h3,
+.mod-custom-16 h4,
+.mod-custom-16 h5,
+.mod-custom-16 h6,
+.mod-custom-16 p,
+.mod-custom-16 blockquote,
+.mod-custom-16 pre,
+.mod-custom-16 a,
+.mod-custom-16 abbr,
+.mod-custom-16 acronym,
+.mod-custom-16 address,
+.mod-custom-16 cite,
+.mod-custom-16 code,
+.mod-custom-16 img,
+.mod-custom-16 small,
+.mod-custom-16 strike,
+.mod-custom-16 strong,
+.mod-custom-16 em,
+.mod-custom-16 sub,
+.mod-custom-16 sup,
+.mod-custom-16 tt,
+.mod-custom-16 dd,
+.mod-custom-16 dl,
+.mod-custom-16 dt,
+.mod-custom-16 li,
+.mod-custom-16 ol,
+.mod-custom-16 ul,
+.mod-custom-16 fieldset,
+.mod-custom-16 form,
+.mod-custom-16 label,
+.mod-custom-16 legend,
+.mod-custom-16 button,
+.mod-custom-16 table,
+.mod-custom-16 caption,
+.mod-custom-16 tbody,
+.mod-custom-16 tfoot,
+.mod-custom-16 thead,
+.mod-custom-16 tr,
+.mod-custom-16 th,
+.mod-custom-16 td,
+.mod-custom-16 section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 100%;
+  line-height: 1;
+  font-family: inherit;
+  text-align: left;
+}
+.mod-custom-16 table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.mod-custom-16 ol,
+.mod-custom-16 ul {
+  list-style: none;
+}
+.mod-custom-16 body {
+  background: #fff;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  text-shadow: 0 0 1px rgba(0,0,0,0.01);
+  color: #555;
+}
+.mod-custom-16 h4 {
+  font-weight: bold;
+  color: #222;
+  font-size: 15px;
+}
+.mod-custom-16 a {
+  color: #00baff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+.mod-custom-16 a:hover {
+  text-decoration: underline;
+}
+.mod-custom-16 #featured {
+  width: 940px;
+  height: 450px;
+  background: #000 url('../images/loading.gif') no-repeat center center;
+  overflow: hidden;
+}
+.mod-custom-16 #featured>img,
+.mod-custom-16 #featured>div,
+.mod-custom-16 #featured>a {
+  display: none;
+}
+.mod-custom-16 div.orbit-wrapper {
+  width: 1px;
+  height: 1px;
+  position: relative;
+}
+.mod-custom-16 div.orbit {
+  width: 1px;
+  height: 1px;
+  position: relative;
+  overflow: hidden;
+}
+.mod-custom-16 div.orbit>img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.mod-custom-16 div.orbit>a {
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 0;
+  display: none;
+}
+.mod-custom-16 .orbit>div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.mod-custom-16 div.timer {
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  opacity: .6;
+  cursor: pointer;
+  z-index: 1001;
+}
+.mod-custom-16 span.rotator {
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  left: -20px;
+  background: url(../images/rotator-black.png) no-repeat;
+  z-index: 3;
+}
+.mod-custom-16 span.mask {
+  display: block;
+  width: 20px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  overflow: hidden;
+}
+.mod-custom-16 span.rotator.move {
+  left: 0;
+}
+.mod-custom-16 span.mask.move {
+  width: 40px;
+  left: 0;
+  background: url(../images/timer-black.png) repeat 0 0;
+}
+.mod-custom-16 span.pause {
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../images/pause-black.png) no-repeat;
+  z-index: 4;
+  opacity: 0;
+}
+.mod-custom-16 span.pause.active {
+  background: url(../images/pause-black.png) no-repeat 0 -40px;
+}
+.mod-custom-16 div.timer:hover span.pause,
+.mod-custom-16 span.pause.active {
+  opacity: 1;
+}
+.mod-custom-16 .orbit-caption {
+  display: none;
+  font-family: "HelveticaNeue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+}
+.mod-custom-16 .orbit-wrapper .orbit-caption {
+  background: #000;
+  background: rgba(0,0,0,0.6);
+  z-index: 1000;
+  color: #fff;
+  text-align: center;
+  padding: 7px 0;
+  font-size: 13px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+}
+.mod-custom-16 div.slider-nav {
+  display: block;
+}
+.mod-custom-16 div.slider-nav span {
+  width: 78px;
+  height: 100px;
+  text-indent: -9999px;
+  position: absolute;
+  z-index: 1000;
+  top: 50%;
+  margin-top: -50px;
+  cursor: pointer;
+}
+.mod-custom-16 div.slider-nav span.right {
+  background: url(../images/right-arrow.png);
+  right: 0;
+}
+.mod-custom-16 div.slider-nav span.left {
+  background: url(../images/left-arrow.png);
+  left: 0;
+}
+.mod-custom-16 .orbit-bullets {
+  position: absolute;
+  z-index: 1000;
+  list-style: none;
+  bottom: -40px;
+  left: 50%;
+  margin-left: -50px;
+  padding: 0;
+}
+.mod-custom-16 .orbit-bullets li {
+  float: left;
+  margin-left: 5px;
+  cursor: pointer;
+  color: #999;
+  text-indent: -9999px;
+  background: url(../images/bullets.jpg) no-repeat 4px 0;
+  width: 13px;
+  height: 12px;
+  overflow: hidden;
+}
+.mod-custom-16 .orbit-bullets li.active {
+  color: #222;
+  background-position: -8px 0;
+}
+.mod-custom-16 .orbit-bullets li.has-thumb {
+  background: none;
+  width: 100px;
+  height: 75px;
+}
+.mod-custom-16 .orbit-bullets li.active.has-thumb {
+  background-position: 0 0;
+  border-top: 2px solid #000;
+}
+.mod-custom-16 .swiper-container {
+  width: 900px;
+}

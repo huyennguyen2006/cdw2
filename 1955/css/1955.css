@@ -1,0 +1,22 @@
+.i-type-1955 {
+  position: relative;
+}
+.i-type-1955 img {
+  width: 100%;
+  height: 600px;
+}
+.i-type-1955 .text-block {
+  text-align: center;
+  width: 30%;
+  height: 600px;
+  position: absolute;
+  bottom: 0px;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.i-type-1955 .text-block h1 {
+  line-height: 1.4;
+  margin-top: 70%;
+}

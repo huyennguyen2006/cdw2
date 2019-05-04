@@ -1,0 +1,100 @@
+.i-type-1956 .cnt-2 .product_meta {
+  padding-top: 28px;
+  padding-left: 0;
+  border-top: 1px solid #e7e7e7;
+  font-size: 13px;
+  color: #777;
+  list-style: none;
+}
+.i-type-1956 .cnt-2 .product_meta a {
+  color: #777;
+  text-decoration: none;
+}
+.i-type-1956 .cnt-2 .product_meta a:hover {
+  color: #FF8969;
+}
+.i-type-1956 .cnt-2 .product_meta .lorem p {
+  margin-top: 25px;
+}
+.i-type-1956 .cnt-2 .product_meta .lorem .price {
+  font-size: 25px;
+}
+.i-type-1956 .cnt-2 .product_meta .lorem .price .amount {
+  font-weight: 600;
+  color: black;
+  padding: 40px;
+}
+.i-type-1956 .cnt-2 .product_meta #clockdiv {
+  font-family: sans-serif;
+  color: #000;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+.i-type-1956 .cnt-2 .product_meta #clockdiv div {
+  border-radius: 3px;
+  border: 1px solid #e7e7e7;
+  display: inline-block;
+}
+.i-type-1956 .cnt-2 .product_meta #clockdiv div span {
+  color: #777777;
+  width: 53px;
+  font-size: 24px;
+  border-radius: 3px;
+  display: inline-block;
+}
+.i-type-1956 .cnt-2 .product_meta #clockdiv .smalltext {
+  font-size: 11px;
+  color: #777;
+}
+.i-type-1956 .cnt-2 .quantity {
+  float: left;
+  margin: 5px 20px 0 0;
+  display: inline-block;
+  border: 1px solid #ddd;
+  padding: 0;
+}
+.i-type-1956 .cnt-2 .quantity .tc {
+  text-align: center;
+}
+.i-type-1956 .cnt-2 .quantity .qty a {
+  float: left;
+  width: 30px;
+  height: 43px;
+  background: none;
+}
+.i-type-1956 .cnt-2 .quantity i {
+  color: #777;
+  margin-top: 15px;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.i-type-1956 .cnt-2 .quantity input {
+  border: none;
+  width: 60px;
+  height: 43px;
+  line-height: 43px;
+  background: none;
+  margin: 0 10px;
+  float: left;
+  padding: 0 5px;
+  margin: 0;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+.i-type-1956 .cnt-2 .add-cart {
+  margin-top: 5px;
+  border: 0;
+  padding: 0 -1px 0 45px;
+  line-height: 45px;
+  background: #363636;
+  color: #fff;
+}
+.i-type-1956 .cnt-2 .add-cart:hover {
+  background-color: #FF8969;
+  border-color: #FF8969;
+}
