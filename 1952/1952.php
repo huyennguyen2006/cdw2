@@ -22,12 +22,12 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="css/1952.css" rel="stylesheet" type="text/css"/>
-        <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
-        <script type="text/javascript" src="js/jquery.zoom.js"></script>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
         <script src="js/1952.js" type="text/javascript"></script>
 
     </head>

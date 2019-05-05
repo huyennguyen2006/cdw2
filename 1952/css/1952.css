@@ -3,6 +3,16 @@
   margin-right: 17px;
   background: #F7F7F7;
 }
+.i-type-1952 .rating {
+  color: #777777;
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 800;
+}
+.i-type-1952 .required {
+  color: red;
+}
 .i-type-1952 .line-1 {
   font-size: 15px;
   font-weight: 500;
@@ -27,6 +37,8 @@
   border-bottom: 2px solid coral;
 }
 .i-type-1952 .cnt-2 {
+  background-color: #F7F7F7;
+  position: relative;
   border-top: 2px solid #ebebeb;
   padding-top: 30px;
 }
@@ -43,9 +55,65 @@
   opacity: 1;
   visibility: visible;
 }
-.i-type-1952 .cnt-3 p {
+.i-type-1952 .cnt-2 .cnt-3 p {
   color: #777777;
   font-size: 15px;
   opacity: 1;
   visibility: visible;
+}
+.i-type-1952 .cnt-2 #review {
+  background-color: #F7F7F7;
+  left: 22%;
+  width: 60%;
+}
+.i-type-1952 .cnt-2 #review .comment-form-rating .rate {
+  float: left;
+  height: 46px;
+  padding: 0 10px;
+}
+.i-type-1952 .cnt-2 #review .comment-form-rating .rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.i-type-1952 .cnt-2 #review .comment-form-rating .rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: #ccc;
+}
+.i-type-1952 .cnt-2 #review .comment-form-rating .rate:not(:checked) > label:before {
+  content: '★ ';
+}
+.i-type-1952 .cnt-2 #review .comment-form-rating .rate > input:checked ~ label {
+  color: #ffc700;
+}
+.i-type-1952 .cnt-2 #review .comment-form-rating .rate:not(:checked) > label:hover,
+.i-type-1952 .cnt-2 #review .comment-form-rating .rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+.i-type-1952 .cnt-2 #review .comment-form-rating .rate > input:checked + label:hover,
+.i-type-1952 .cnt-2 #review .comment-form-rating .rate > input:checked + label:hover ~ label,
+.i-type-1952 .cnt-2 #review .comment-form-rating .rate > input:checked ~ label:hover,
+.i-type-1952 .cnt-2 #review .comment-form-rating .rate > input:checked ~ label:hover ~ label,
+.i-type-1952 .cnt-2 #review .comment-form-rating .rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+.i-type-1952 .cnt-2 .tab-pane {
+  background: #F7F7F7;
+  position: absolute;
+}
+.i-type-1952 .cnt-2 .tab-pane p {
+  margin: 0 0 10px;
+  color: #777777;
+}
+.i-type-1952 .cnt-2 .tab-pane .comment-respond .required {
+  color: red;
+}
+.i-type-1952 .cnt-2 .tab-pane .btn {
+  width: 102px;
+  color: #fff;
+  background-color: #ff8969;
 }
