@@ -1,0 +1,120 @@
+.type-976 .container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.type-976 .container .row {
+  width: 100%;
+  max-width: 1140px;
+  min-width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.type-976 .container .row .onecol,
+.type-976 .container .row .twocol,
+.type-976 .container .row .threecol,
+.type-976 .container .row .fourcol,
+.type-976 .container .row .fivecol,
+.type-976 .container .row .sixcol,
+.type-976 .container .row .sevencol,
+.type-976 .container .row .eightcol,
+.type-976 .container .row .ninecol,
+.type-976 .container .row .tencol,
+.type-976 .container .row .elevencol {
+  margin-right: 3.8%;
+  float: left;
+  min-height: 1px;
+}
+.type-976 .container .row .onecol {
+  width: 4.85%;
+}
+.type-976 .container .row .twocol {
+  width: 13.45%;
+}
+.type-976 .container .row .threecol {
+  width: 22.05%;
+}
+.type-976 .container .row .fourcol {
+  width: 30.75%;
+}
+.type-976 .container .row .fivecol {
+  width: 39.45%;
+}
+.type-976 .container .row .sixcol {
+  width: 48%;
+}
+.type-976 .container .row .sevencol {
+  width: 56.75%;
+}
+.type-976 .container .row .eightcol {
+  width: 65.4%;
+}
+.type-976 .container .row .ninecol {
+  width: 74.05%;
+}
+.type-976 .container .row .tencol {
+  width: 82.7%;
+}
+.type-976 .container .row .elevencol {
+  width: 91.35%;
+}
+.type-976 .container .row .twelvecol {
+  width: 100%;
+  float: left;
+}
+.type-976 .container .row .last {
+  margin-right: 0px;
+}
+.type-976 .container .row img,
+.type-976 .container .row object,
+.type-976 .container .row embed {
+  max-width: 100%;
+}
+.type-976 .container .row img {
+  height: auto;
+}
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 0.8em;
+    line-height: 1.5em;
+  }
+}
+@media handheld,only screen and (max-width: 767px) {
+  .type-976 #header .logo {
+    margin: -1px 606px 0px 0px;
+    background: url(../images/logo.png) no-repeat 50% 50%;
+  }
+  .type-976 .container .row img {
+    height: 182px;
+  }
+  .type-976 .blueberry {
+    width: 284px;
+    height: 221px;
+  }
+  .type-976 .container {
+    width: 100%;
+    min-width: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .type-976 .container .row .onecol,
+  .type-976 .container .row .twocol,
+  .type-976 .container .row .threecol,
+  .type-976 .container .row .fourcol,
+  .type-976 .container .row .fivecol,
+  .type-976 .container .row .sixcol,
+  .type-976 .container .row .sevencol,
+  .type-976 .container .row .eightcol,
+  .type-976 .container .row .ninecol,
+  .type-976 .container .row .tencol,
+  .type-976 .container .row .elevencol,
+  .type-976 .container .row .twelvecol {
+    width: auto;
+    float: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
