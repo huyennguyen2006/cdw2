@@ -1,3 +1,10 @@
+.i-type-1956 input[type='number'] {
+  -moz-appearance: textfield;
+}
+.i-type-1956 input::-webkit-outer-spin-button,
+.i-type-1956 input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
 .i-type-1956 .line-1 {
   background: #F9F9F9;
 }
