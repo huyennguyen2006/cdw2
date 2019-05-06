@@ -43,7 +43,7 @@
                     </div>
                   </div>
                </div>
-               <div class="quantity pr">
+                <div class="quantity pr">
                   <div class="qty tc">
                      <a class="minus dib" href="javascript:void(0);">
                     <i class="fa fa-minus"></i>
