@@ -77,17 +77,17 @@
         <span>$120.00</span>
       </div>
       <div class="variations_button">
-        <div class="quantity pr">
-          <div class="qty tc">
-            <a class="minus dib" href="javascript:void(0);">
-             <i class="fa fa-minus"></i>
-            </a>
-            <input type="number" class="input-text tc" id="quantity" step="1" min="1" max="" name="quantity" value="1" size="4">
-            <a class="plus dib" href="#">
-              <i class="fa fa-plus"></i>
-            </a>
+          <div class="quantity pr">
+            <div class="qty tc">
+               <a class="minus dib" href="javascript:void(0);">
+              <i class="fa fa-minus"></i>
+               </a>
+               <input type="number" class="input-text tc" id="quantity_5cc577f043db9" step="1" min="1" max="" name="quantity" value="1" size="4">
+               <a class="plus dib" href="javascript:void(0);">
+               <i class="fa fa-plus"></i>
+               </a>
+            </div>
           </div>
-      </div>
         <button type="submit" class="add_to_cart_button"><i class="fa fa-shopping-basket"></i><span class="add-to-cart">ADD TO CART</span></button>
     </div>
     <div class="product_meta">

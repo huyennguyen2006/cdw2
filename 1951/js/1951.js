@@ -3,6 +3,7 @@ $(document).ready(function(){
 	$('#ex2').zoom();
 	$('#ex3').zoom();
 	$('#ex4').zoom();
+
 });
 
 $(document).ready(function(){
@@ -22,5 +23,4 @@ $(document).ready(function(){
    $("#clear").click(function(){
     $price.css('display', 'none');
   });
-
 });
