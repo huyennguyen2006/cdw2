@@ -1,0 +1,41 @@
+.type-1962 {
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 0;
+  font-family: segoe ui light;
+}
+.type-1962 a.navbar-brand {
+  padding-left: 170px;
+}
+.type-1962 .chuanoidungmenu {
+  position: absolute;
+  top: 50px;
+  left: 250px;
+}
+.type-1962 .chuanoidungmenu .chuto {
+  margin-bottom: 40px;
+}
+.type-1962 .chuanoidungmenu .chunho {
+  font-weight: 700;
+  width: 70%;
+  font-size: 17px;
+  color: #111;
+}
+.type-1962 .nut {
+  position: absolute;
+  z-index: 1;
+  color: white !important;
+  background: rgba(128,128,128,0.68);
+  margin-top: 50px;
+}
+.type-1962 .nut:hover {
+  background: orange;
+}
+.type-1962 .hinhmenu {
+  margin-left: 120px;
+}
+@media handheld,only screen and (max-width: 767px) {
+  .type-1962 .hinhmenu {
+    margin-left: 0px;
+  }
+}
