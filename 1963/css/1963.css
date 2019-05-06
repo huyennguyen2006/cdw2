@@ -1,0 +1,107 @@
+.type-1963 {
+  margin: 0;
+  padding: 0;
+  font-family: segoe ui light;
+}
+.type-1963 .sanpham {
+  margin-top: 20px;
+  font-size: 22px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.type-1963 .sales:after {
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  border: 45px solid white;
+  top: -45px;
+  right: -45px;
+  z-index: 2;
+  transform: rotate(45deg);
+  border-bottom-color: orange;
+}
+.type-1963 .on-sales {
+  font-size: 13px;
+  position: absolute;
+  top: 14px;
+  color: white;
+  right: -2px;
+  z-index: 3;
+  transform: rotate(45deg);
+}
+.type-1963 .sanpham {
+  margin-top: 20px;
+  font-size: 22px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.type-1963 .chuahinhnho {
+  cursor: pointer;
+  margin-right: 10px;
+  overflow: hidden;
+  border: 1px solid rgba(128,128,128,0.46);
+  position: relative;
+  height: 320px;
+}
+.type-1963 .eye {
+  font-size: 33px !important;
+  color: gray;
+  position: absolute;
+  left: 10px;
+  z-index: 4;
+}
+.type-1963 .khongcogi {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  left: 0;
+  top: 0;
+  height: 340px;
+  opacity: 0;
+}
+.type-1963 .add {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  background: gray;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.type-1963 .add:hover {
+  background: orange;
+}
+.type-1963 .hinhnho {
+  cursor: pointer;
+}
+.type-1963 .khongcogi:hover {
+  opacity: 1;
+}
+.type-1963 .hinhnho {
+  height: 270px;
+  position: absolute;
+  z-index: 2;
+}
+.type-1963 .thongtinsanpham {
+  position: absolute;
+  z-index: 4;
+  bottom: 45px;
+  left: 30%;
+  margin-top: 15px;
+  color: gray;
+  cursor: pointer;
+  text-align: center;
+}
+.type-1963 .thongtinsanpham:hover {
+  color: orange;
+}
+.type-1963 .giatien {
+  position: absolute;
+  z-index: 4;
+  bottom: 15px;
+  left: 30%;
+  text-align: center;
+  font-weight: bold;
+}
