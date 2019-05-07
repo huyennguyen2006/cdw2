@@ -1,96 +1,75 @@
-.i-type-1954 {
+* {
+  margin: 0;
+  padding: 0;
+  font-family: segoe ui light;
+}
+.type-1954 {
+  background-color: rgba(0,0,0,0.82);
+  margin-top: 10px;
+  width: 100%;
+}
+.type-1954 .address {
+  color: rgba(255,255,255,0.68);
+}
+.type-1954 .contact {
+  padding-top: 20px;
+  color: white;
+}
+.type-1954 .mauden {
+  color: white;
+  margin-top: 10px;
+  width: 200px;
+  background: rgba(0,0,0,0.5);
+  cursor: pointer;
+  border: none !important;
+}
+.type-1954 .mauden:hover {
+  background: orange;
+  color: white !important;
+}
+.type-1954 .form-control {
+  border: none !important;
+}
+.type-1954 .icon {
+  transition: transform .2s;
+  color: rgba(255,255,255,0.31);
+  margin-left: 5px;
+  font-size: 22px !important;
+  cursor: pointer;
+}
+.type-1954 .icon:hover {
+  color: orange;
+  transform: scale(1.5);
+}
+.type-1954 .tacgia {
+  background-image: url(../images/bg_pttrn.png);
+  height: 70px;
   margin-top: 30px;
 }
-.i-type-1954 h3 {
-  font-size: 1.125em;
-  margin-bottom: 20px;
-  line-height: 1.4;
-  font-weight: 600;
-  margin-top: 0;
+.type-1954 .chuacard {
+  padding-right: 100px;
+  padding-top: 25px;
 }
-.i-type-1954 h3 .menu-head {
-  display: inline-block;
-  position: relative;
-  color: #444444;
-}
-.i-type-1954 .menu-min p {
-  color: #9A9A9A;
-}
-.i-type-1954 .menu-min ul {
-  line-height: 1.45;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-.i-type-1954 .menu-min ul li {
-  margin-bottom: 12px;
-}
-.i-type-1954 .menu-min ul li a {
-  color: #9A9A9A;
-  text-decoration: none;
-}
-.i-type-1954 .menu-min ul li a:hover {
-  color: #ff8969;
-}
-.i-type-1954 .icon-social .fa {
-  color: #8f8f8f;
-  padding: 17px 6px;
-}
-.i-type-1954 .icon-social .fa:hover {
-  color: #ff8969;
-}
-.i-type-1954 #mc4wp-form-1 {
-  width: 228px;
-  flex: 1 1 auto;
-  border: 1px solid #ebebeb;
-}
-.i-type-1954 #mc4wp-form-1 .form-newletter {
-  background: #fff;
-  height: 46px;
-  line-height: 44px;
-  border-radius: 0;
-  max-width: 550px;
-  margin-right: 2px;
-  font-size: 12px;
-}
-.i-type-1954 #mc4wp-form-1 .form-newletter .input-email {
-  margin-right: 22px;
-  -webkit-appearance: none;
-  border: none;
-  border-right: 1px solid #ebebeb;
-  text-align: center;
-}
-.i-type-1954 #mc4wp-form-1 .form-newletter .sbm {
-  -webkit-appearance: none;
-  cursor: pointer;
-  border: none;
-  background: #fff;
-}
-.i-type-1954 .final {
-  font-size: 13px;
-  margin-top: 40px;
-  border-top: 1px solid #8f8f8f;
-}
-.i-type-1954 .final .info {
-  position: relative;
-  margin-top: 20px;
-}
-.i-type-1954 .final .info a {
-  text-decoration: none;
-  color: #8f8f8f;
-  padding: 10px;
-}
-.i-type-1954 .final .info a:hover {
-  color: #ff8969;
-}
-.i-type-1954 .final .box {
-  margin-top: 20px;
+.type-1954 .card {
+  transition: transform .2s;
+  border: 1px solid white;
+  font-size: 35px !important;
   float: right;
+  color: #fff;
+  margin-left: 20px;
 }
-.i-type-1954 .final .box p {
-  color: #8f8f8f;
+.type-1954 .card:hover {
+  transform: scale(1.5);
 }
-.i-type-1954 .final .box p a {
-  color: #ff8969;
-  text-decoration: none;
+.type-1954 .tentacgia {
+  float: left;
+  padding-left: 200px;
+  color: rgba(255,255,255,0.68);
+  padding-top: 25px;
+}
+.type-1954 .z {
+  cursor: pointer;
+}
+.type-1954 .z:hover {
+  color: orange;
 }
