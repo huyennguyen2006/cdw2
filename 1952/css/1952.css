@@ -1,4 +1,5 @@
 .i-type-1952 {
+  height: 600px;
   margin-left: 17px;
   margin-right: 17px;
   background: #F7F7F7;
@@ -30,7 +31,7 @@
   padding: 16px;
   color: #777777;
 }
-.i-type-1952 .line-1 .ep1 a {
+.i-type-1952 .line-1 .active {
   border-bottom: 2px solid coral;
 }
 .i-type-1952 .line-1 #ep3 a:hover {

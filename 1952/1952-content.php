@@ -10,8 +10,8 @@
 <div class="i-type-1952">
    <div class="container">
       <div class="line-1 nav nav-tabs">
-         <span class="ep1 active"><a data-toggle="tab" href="#home">Description</a></span>
-         <span id="ep3"><a data-toggle="tab" href="#review" onclick="myFunction()">Reviews (1)</a></span>    
+         <span class="ep1"><a class='active' data-toggle="tab" href="#home">Description</a></span>
+         <span class="ep3"><a data-toggle="tab" href="#review" onclick="myFunction()">Reviews (1)</a></span>    
       </div>
       <div class="cnt-2">
          <div id="home" class="tab-pane fade active in">
