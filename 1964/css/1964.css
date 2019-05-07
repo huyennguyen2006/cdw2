@@ -1,0 +1,23 @@
+.type-1964 {
+  margin: 0;
+  padding: 0;
+  font-family: segoe ui light;
+}
+.type-1964 .Jewellery {
+  font-weight: 700;
+  margin-top: 30px;
+  font-size: 22px;
+  padding-bottom: 30px;
+}
+.type-1964 .noidungjewellery {
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 600;
+}
+.type-1964 .hinhcogai {
+  margin-top: 30px;
+  font-size: 22px;
+}
+.type-1964 .hinhcogai img {
+  ertical-align: middle;
+}
