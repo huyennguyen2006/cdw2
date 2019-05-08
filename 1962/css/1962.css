@@ -12,9 +12,6 @@
   position: absolute;
   top: 50px;
 }
-.type-1962 .chuanoidungmenu .chuto {
-  margin-bottom: 40px;
-}
 .type-1962 .chuanoidungmenu .chunho {
   font-weight: 700;
   width: 70%;
@@ -26,27 +23,39 @@
   z-index: 1;
   color: white !important;
   background: rgba(128,128,128,0.68);
-  margin-top: 50px;
 }
 .type-1962 .nut:hover {
   background: orange;
 }
-.type-1962 .hinhmenu {
-  margin-left: 120px;
+@media (min-width: 1024px) {
+  .type-1962 .nut {
+    margin-top: 50px;
+  }
 }
-@media only screen and (max-width: 1028px) {
+@media (max-width: 1028px) {
   .type-1962 .hinhmenu {
-    margin-left: -12px;
-    width: 465px;
+    width: 100%;
   }
   .type-1962 .chuto {
     font-size: 15px;
   }
   .type-1962 .chuanoidungmenu {
     position: absolute;
-    top: 25px;
     margin-left: 50px;
     width: 55%;
+  }
+  .type-1962 .chuanoidungmenu .chunho {
+    font-size: 12px;
+  }
+}
+@media (max-width: 798px) {
+  .type-1962 .chuto {
+    font-size: 15px;
+  }
+  .type-1962 .chuanoidungmenu {
+    position: absolute;
+    margin-left: 47px;
+    width: 54%;
   }
   .type-1962 .chuanoidungmenu .chunho {
     font-size: 12px;

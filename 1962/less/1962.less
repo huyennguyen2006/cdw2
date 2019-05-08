@@ -10,9 +10,7 @@
     margin-left: 130px;
     position: absolute;
     top: 50px;
-    .chuto{
-      margin-bottom: 40px;
-    }
+
     .chunho{
         font-weight: 700;
         width: 70%;
@@ -25,31 +23,49 @@
     z-index: 1;
     color: white!important;
     background: rgba(128, 128, 128, 0.68);
-    margin-top: 50px;
   }
   .nut:hover {
     background: orange;
   }
-  .hinhmenu {
+/*  .hinhmenu {
     margin-left: 120px;
-}
-  @media only screen and (max-width: 1028px){
+  }*/
+  @media(min-width: 1024px){
+    .nut{
+          margin-top: 50px;
+    }
+  }
+  @media (max-width: 1028px){
     .hinhmenu {
-        margin-left: -12px;
-        width: 465px;
+        width: 100%;
       }
       .chuto{
         font-size: 15px;
       }
      .chuanoidungmenu {
       position: absolute;
-      top: 25px;
+      
       margin-left: 50px;
       width: 55%;
         .chunho{
         font-size: 12px;
       } 
       }
+  }
+  @media(max-width: 798px){
+
+      .chuto{
+        font-size: 15px;
+      }
+     .chuanoidungmenu {
+      position: absolute;
+     
+      margin-left: 47px;
+      width: 54%;
+      .chunho{
+        font-size: 12px;
+      } 
+    }
   }
 }
 
