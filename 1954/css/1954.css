@@ -73,3 +73,13 @@
 .type-1954 .z:hover {
   color: orange;
 }
+@media only screen and (max-width: 768px) {
+  .type-1954 .tentacgia {
+    float: none;
+    text-align: center;
+    padding-left: 0px;
+  }
+  .type-1954 .card {
+    margin-right: -11px;
+  }
+}
