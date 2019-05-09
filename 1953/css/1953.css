@@ -1,0 +1,69 @@
+.i-type-1953 {
+  font-size: 15px;
+  color: #878787;
+  font-weight: 500;
+  font-family: 'Lato';
+  background-color: #f8f8f8;
+  padding: 52px 0 64px;
+}
+.i-type-1953 .feature-box {
+  left: auto;
+  right: 0;
+  text-align: center;
+  margin-top: 50px;
+  padding-left: 55px;
+  position: relative;
+  text-align: left;
+}
+.i-type-1953 .feature-box .feature-box-icon {
+  color: #8eb35a;
+  font-size: 28px;
+  left: 0;
+  line-height: 1;
+  position: absolute;
+  top: -4px;
+  width: 30px;
+  cursor: pointer;
+  max-width: 100%;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.i-type-1953 .feature-box .feature-box-icon:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.i-type-1953 .feature-box .center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.i-type-1953 .reverse .feature-box-icon {
+  left: auto;
+  right: 0;
+  text-align: center;
+}
+.i-type-1953 .feature-box.reverse {
+  padding-left: 0;
+  padding-right: 55px;
+  text-align: right;
+}
+.i-type-1953 .feature-box-info h3 {
+  color: #2d343e;
+  font-size: 20px;
+}
+.i-type-1953 .feature-box:first-child {
+  margin-top: 0;
+}
+.i-type-1953 .zoomIn {
+  max-width: 100%;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.i-type-1953 .zoomIn:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
