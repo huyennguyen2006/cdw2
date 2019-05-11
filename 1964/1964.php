@@ -28,9 +28,12 @@
 	<link rel="stylesheet" href="css/1964.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script href="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+     <script type="text/javascript" src="js/1964.js"></script>
 	
 </head>
 <body>
 	<?php include $dir_block.'/1964-content.php'; ?>  
+
 </body>
 </html>

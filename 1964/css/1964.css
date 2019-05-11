@@ -36,17 +36,20 @@
   white-space: nowrap;
   width: 219px;
 }
-.type-1964 .btn-primary {
+.type-1964 .a {
+  position: relative;
+}
+.type-1964 .a .btn-primary {
+  position: absolute;
   margin-left: 100px;
   border: none;
   color: #fff;
   font-size: 13px;
   cursor: pointer;
-  display: inline-block;
   padding: 10px 15px;
   background: #DE185E;
 }
-.type-1964 .new-1 {
+.type-1964 .a .new-1 {
   position: absolute;
   width: 100%;
   z-index: 3;
@@ -54,7 +57,7 @@
   height: 340px;
   left: 0;
 }
-.type-1964 .new-1 .new {
+.type-1964 .a .new-1 .new {
   position: absolute;
   left: 0px;
   background-color: #5FC748;
@@ -63,7 +66,7 @@
   color: white;
   border: 2px solid white;
 }
-.type-1964 .sale-1 {
+.type-1964 .a .sale-1 {
   position: absolute;
   width: 100%;
   z-index: 3;
@@ -71,8 +74,8 @@
   height: 340px;
   right: 0;
 }
-.type-1964 .sale-1 .sale {
-  right: 0px;
+.type-1964 .a .sale-1 .sale {
+  right: -7px;
   background-color: #757CFF;
   position: absolute;
   width: 43px;
@@ -80,19 +83,7 @@
   color: white;
   border: 2px solid white;
 }
-.type-1964 .a {
-  position: relative;
-}
-.type-1964 .hinhsanpham {
-  height: 270px;
-}
-.type-1964 .sanpham {
-  margin-top: 20px;
-  font-size: 22px;
-  width: 100%;
-  margin-bottom: 10px;
-}
-.type-1964 .thongtinsanpham {
+.type-1964 .a .thongtinsanpham {
   left: 30%;
   margin-top: 15px;
   color: #111;
@@ -100,12 +91,15 @@
   text-align: center;
   font-weight: bold;
 }
-.type-1964 .thongtinsanpham:hover {
+.type-1964 .a .thongtinsanpham:hover {
   color: orange;
 }
-.type-1964 .giatien {
+.type-1964 .a .giatien {
   text-align: center;
   font-weight: bold;
+}
+.type-1964 .a .hinhsanpham {
+  height: 270px;
 }
 @media only screen and (max-width: 1080px) {
   .type-1964 select#soflow,
@@ -116,7 +110,7 @@
     margin-left: 80px;
     height: 270px;
   }
-  .type-1964 .btn-primary {
+  .type-1964 .a .btn-primary {
     margin-top: -96px;
     position: absolute;
     margin-left: 202px;

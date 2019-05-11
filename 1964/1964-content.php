@@ -52,12 +52,13 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="sale-1">
                <span class="sale">SALE</span>
             </div>
-         </div>
-         <div class="giatien">$59,00</div>
+            <div class="giatien">$59,00</div>
          <div class="thongtinsanpham">Necklace Ring</div>
          <button class="btn-primary" data-button-action="add-to-cart" type="submit">
               <i class="fa fa-shopping-cart"></i>
          </button>
+         </div>
+         
          </div>
          <div class="col-md-3 col-sm-3">
             <div class="a">
@@ -68,12 +69,13 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="sale-1">
                <span class="sale">SALE</span>
             </div>
-         </div>
-         <div class="giatien">$19,00</div>
+              <div class="giatien">$19,00</div>
          <div class="thongtinsanpham">Golden Wedding Ring</div>
          <button class="btn-primary" data-button-action="add-to-cart" type="submit">
               <i class="fa fa-shopping-cart"></i>
          </button>
+         </div>
+       
          </div>
 
          <div class="col-md-3 col-sm-3">
@@ -85,12 +87,12 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="sale-1">
                <span class="sale">SALE</span>
             </div>
-        
-         <div class="giatien">$380,00</div>
+             <div class="giatien">$380,00</div>
          <div class="thongtinsanpham">Platinium Diamond Rings</div>
          <button class="btn-primary" data-button-action="add-to-cart" type="submit">
               <i class="fa fa-shopping-cart"></i>
          </button>
+      
           </div>
          </div>
 
