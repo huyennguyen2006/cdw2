@@ -1,0 +1,66 @@
+.i-type-1966 .support .bottom-support-wrapper {
+  background: url("../images/support-bg.jpg") no-repeat scroll 100% 0 / auto 100%;
+}
+.i-type-1966 .support .message {
+  border: 1px solid #e1e8ed;
+  border-radius: 5px;
+  padding: 10px;
+  line-height: 20px;
+}
+.i-type-1966 .support .message .client {
+  background-image: url("../images/client-icon.jpg");
+  width: 40px;
+  height: 45px;
+  display: block;
+  float: left;
+}
+.i-type-1966 .support .message .arrowhitech {
+  width: 40px;
+  height: 45px;
+  display: block;
+  float: right;
+}
+.i-type-1966 .support .message .mgs-left {
+  float: right;
+  margin-right: -22px;
+  background-color: #fff;
+}
+.i-type-1966 .support .message .mgs-left p {
+  padding-left: 50px;
+}
+.i-type-1966 .support .message .mgs-right {
+  float: left;
+  background-color: #e1e8ed;
+}
+.i-type-1966 .support .message .mgs-right p {
+  padding-right: 50px;
+}
+.i-type-1966 .support .support-item {
+  border: 3px solid #8eb35a;
+  border-radius: 5px;
+  padding: 30px;
+  text-align: center;
+  color: #8eb35a;
+}
+.i-type-1966 .support .support-item i {
+  font-size: 60px;
+}
+.i-type-1966 .support .support-item h5 {
+  margin: 20px 0 0;
+  font-size: 16px;
+}
+.i-type-1966 .support .support-item h5 a {
+  color: #333;
+}
+.i-type-1966 .support .text-center {
+  color: #333 !important;
+}
+.i-type-1966 .qabox {
+  margin: 40px 0;
+  overflow: hidden;
+}
+@media (max-width: 991px) {
+  .support .support-item {
+    margin-bottom: 10px;
+  }
+}
