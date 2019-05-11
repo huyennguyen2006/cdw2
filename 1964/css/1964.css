@@ -41,7 +41,6 @@
 }
 .type-1964 .a .btn-primary {
   position: absolute;
-  margin-left: 100px;
   border: none;
   color: #fff;
   font-size: 13px;
@@ -110,10 +109,10 @@
     margin-left: 80px;
     height: 270px;
   }
-  .type-1964 .a .btn-primary {
+  .type-1964 .btn-primary {
     margin-top: -96px;
     position: absolute;
-    margin-left: 202px;
+    margin-right: 202px;
     border: none;
     color: #fff;
     font-size: 13px;
@@ -125,5 +124,10 @@
   }
   .type-1964 .sale-1 {
     font-weight: 700;
+  }
+  .type-1964 img {
+    margin-left: 10px;
+    width: 50%;
+    height: auto;
   }
 }
