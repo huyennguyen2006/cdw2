@@ -28,36 +28,17 @@
 
 
         <link href="css/custom-css.css" rel="stylesheet" type="text/css"/>
-        <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1' rel='stylesheet' type='text/css' />
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1' rel='stylesheet' type='text/css'/>
         <link href='http://fonts.googleapis.com/css?family=Holtwood+One+SC' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="./swiper-4.5.0/dist/css/swiper.min.css">
-         <link href="js/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css" rel="stylesheet" type="text/css"/>
-        <link href="js/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" rel="stylesheet" type="text/css"/>
-        <!-- <script type="text/javascript" src="/js/owl.carousel.min.js"></script>
-         <script type="text/javascript" src="/js/jquery-2.1.4.min.js"></script> -->
-        <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/jquery.crotator.js"></script>
-        
-        <script type="text/javascript">
-              $(window).load(function () {
-                //$('#cr-container').crotator();
-            });
-        </script>
-        
-        <?php
-        if (!class_exists('lessc')) {
-            include ('./libs/lessc.inc.php');
-        }
-        $less = new lessc;
-        $less->compileFile('./less/custom-less.less', './css/custom-css.css');
-        ?>
+
     </head>
 
     <body>
         <?php include $dir_block.'/975-content.php'; ?>  
     </body>
-    <script src="js/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js" type="text/javascript"></script>
-    <script src="js/OwlCarousel2-2.3.4/dist/owl.carousel.js" type="text/javascript"></script>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/owl.carousel.js" type="text/javascript"></script>
     <script src="js/975.js" type="text/javascript"></script>
     
 </html>
